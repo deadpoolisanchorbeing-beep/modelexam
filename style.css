@@ -1,63 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Styled List</title>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            margin-top: 100px;
-        }
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0px 0px 10px gray;
+}
 
-        .container {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            width: 300px;
-        }
+h2 {
+    text-align: center;
+    color: #333;
+}
 
-        h2 {
-            text-align: center;
-            color: #333;
-        }
+ul {
+    list-style: none;
+    padding: 0;
+}
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            background: #4CAF50;
-            color: white;
-            padding: 12px;
-            margin: 10px 0;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-
-        li:hover {
-            background: #45a049;
-            transform: scale(1.03);
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="container">
-        <h2>My Favorite Technologies</h2>
-
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-        </ul>
-    </div>
-
-</body>
-</html>
+li {
+    background: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
